@@ -1,135 +1,159 @@
+/* This code applies global formatting to all elements */
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
+/* This code applies a background color to the body element */
 body {
-    background-color: #d9dcd6;
+  background-color: #d9dcd6;
 }
 
+/* This code sets the style for the header element */
 header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-    display: flex;
-    justify-content: flex-end;
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+  display: flex;
+  justify-content: flex-end;
 }
 
+/* This code sets the style for the h1 element */
 h1 {
-    display: inline-block;
-    font-size: 48px;
-    margin-right: auto;
+  display: inline-block;
+  font-size: 48px;
+  margin-right: auto;
 }
 
+/* This code adjusts the color of the "seo" in Horiseon by targetting the span element within the h1 element that has the class of "seo" */
 h1 .seo {
-    color: #d9dcd6;
+  color: #d9dcd6;
 }
 
+/* This code sets the style for the navigation section */
 nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    list-style-type: none;
-    display: inline-block;
-    margin-left: 25px;
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 25px;
 }
 
+/* This code sets the style for anchor elements */
 a {
-    color: #ffffff;
-    text-decoration: none;
-    padding-left: 30px;
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 30px;
 }
 
+/* This code sets the style for all p elements */
 p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
+/* This id selector targets the container for our main image */
 #image-container {
-width: auto;
-height: auto;
+  width: auto;
+  height: auto;
 }
 
+/* This id selector sets parameters for our main image */
 #main-image {
-    height: auto;
-    width: 100%;
-    margin-bottom: 25px;
-    max-height: 800px;
-    object-fit: cover;
+  height: auto;
+  width: 100%;
+  margin-bottom: 25px;
+  max-height: 800px;
+  object-fit: cover;
 }
 
+/* This class selector sets elements to the left of their container */
 .float-left {
-    float: left;
-    margin-right: 25px;
+  float: left;
+  margin-right: 25px;
 }
 
+/* This class selector sets elements to the right of their container */
 .float-right {
-    float: right;
-    margin-left: 25px;
+  float: right;
+  margin-left: 25px;
 }
 
+/* This class selector sets style for all elements with a class of content */
 .content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
 }
 
+/* This class selector targets all img elements that are within a section container with the class attribute of content */
 .content img {
-    max-height: 200px;
+  max-height: 200px;
 }
 
+/* This class selector sets style for all elements with a class of content-section */
 .content-section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
 }
 
+/* This class selector sets style for all elements with a class of content-section */
 .benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
 }
 
+/* This class selector targets all img elements within section elements containing the benefit-section class */
 .benefit-section img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
 
+/* This class selector sets style for all elements with a class of benefit-section */
 .benefit-section {
-    margin-bottom: 32px;
-    color: #ffffff;
+  margin-bottom: 32px;
+  color: #ffffff;
 }
 
+/* This code sets the style for the h3 element */
 h3 {
-    margin-bottom: 10px;
-    text-align: center;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
+/* This code sets the style for the h2 element */
 h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 
+/* This code sets the style for the footer element */
 footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
 }
 
+/* This code sets the style for the h2 element within the footer element */
 footer h2 {
-    font-size: 20px;
-    margin-bottom: 5px;
+  font-size: 20px;
+  margin-bottom: 5px;
 }
