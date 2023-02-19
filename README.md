@@ -1,4 +1,4 @@
-# Module 1 Challenge: Landing Page
+# Module 1 Challenge: Code Refactor
 
 ## Description
 
