@@ -6,7 +6,7 @@ This is the first assigned challenge for the UCF Coding Bootcamp. Our task was t
 
 ## Screenshot of Landing Page
 
-insert sc here
+![image](https://user-images.githubusercontent.com/121977575/219906431-54a95b02-70b8-413b-8db9-aaa26a68990e.png)
 
 ## Link to Deployed Application
 
