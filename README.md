@@ -10,4 +10,4 @@ This is the first assigned challenge for the UCF Coding Bootcamp. Our task was t
 
 ## Link to Deployed Application
 
-insert link
+https://jtruehitt.github.io/Module-1-Challenge/
